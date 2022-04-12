@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@700&family=Ubuntu:wght@300&family=Work+Sans:wght@800&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Heebo&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@700&family=Ubuntu:wght@300&family=Work+Sans:wght@800&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Heebo&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@700&family=Ubuntu:wght@300&family=Work+Sans:wght@800&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+   
+   background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),url(../img/Naufrago.png);
+    width: 100%;
+    height: 100%;
+    background-size: 95% 120%;
+}
+
+.titulo{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    height: 70px;
+}
+
+h1{
+position:absolute;
+width: auto;
+left: 30px;
+top: 10px;
+margin-left: 15px;
+
+font-family: 'Work Sans';
+font-style: italic;
+font-weight: 800;
+font-size: 40px;
+letter-spacing: -0.02em;
+color:rgba(238, 216, 23, 1);
+text-shadow: 8px 8px 8px rgba(69, 6, 150, 1);
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: rgba(69, 6, 150, .8);
+}
+
+.logo{
+    border-radius: 30px;
+    width: 135px;
+    height: 140px;
+    background-image: url(../img/Naufrago.png);
+    background-size:160%;
+    background-position: center;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.logo:hover{
+    background-size: 280%;
+}
+
+
+.menu{
+    color: rgba(255, 255, 255, 1);
+}
+
+.sub-menu{
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 40px;
+    background-color:rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.sub-menu:hover{
+    background-color:rgba(69, 6, 150, .5);
+}
+h3{
+    margin-left: 15px;
+    font-family: "anton";
+    font-size: 25px;
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    
+}
+img{
+    height: 30px;
+}
+
+.container{
+    margin-top: 20px;
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+   
+
+}
+
+.linha-horizontal{
+    width: 300px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, .2);
+    margin:20px 0px  20px 0px;
+}
+
+.payment{
+    margin-bottom: 30px;
+    font-family:"bebas neue";
+    font-size: 20px;
+    color:rgba(34, 204, 221, 1) ;
+    
+
+}
+
+.wpp{
+    font-family: "bebas neue";
+    color: white;
+    display: flex;
+    width: 300px;
+}
+#numberWpp{
+    margin-left: 10px;
+}
+h2{
+    letter-spacing: .1rem;
+
+}
+.pix{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 150px;
+    height:50px;
+}
+.number-pix{
+    margin-left: 50px;
+}
+
+.wpp{
+    padding-left: 40px;
+}
+
+.container-center{
+background-image: url(../img/CAMPO\ FUTEBOL.jpg);
+background-size: 100% 100%;
+width: 60%;
+height: 899px;
+opacity: .4;
+border-radius: 35px 0px 0px 35px;
+
+}
+
+.container-center:hover{
+
+}
+.container-right{
+    width: 20%;
+    height: 899px;
+    background: #29043D;
+  
+    
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.jogos-da-semana{
+    font-family:"bebas neue";
+    font-size: 40px;
+    color: white;
+    
+}
+
+.linha-horizontal-right{
+    border: 2px solid rgba(255, 255, 255, .2);
+    margin-top: 11px;
+
+}
+
+.lista-de-jogos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.times{
+    height: 50px;
+    margin: 11px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: .3s ease all;
+    
+}
+
+.times:hover{
+    background-color:rgba(238, 216, 23, .5);
+
+}
+P{
+    font-family: "bebas neue";
+    font-size:30px;
+    color: white;
+    margin: 5px;
+}
+.logo-brasileirao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    right: 50px;
+    height: 100px;
+}
+
+@media (max-width: 500px){
+    main{
+       flex-flow: column wrap;
+       align-items: center;
+    }
+    
+}
+
+
+
+
+
