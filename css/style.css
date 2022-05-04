@@ -9,10 +9,10 @@
 }
 body{
    
-   background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),url(../img/Naufrago.png);
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),url(../img/Naufrago.png);
     width: 100%;
     height: 100%;
-    background-size: 95% 120%;
+    background-size: 100vw 100vh;
 }
 
 .titulo{
@@ -212,13 +212,36 @@ P{
     height: 100px;
 }
 
+
 @media (max-width: 500px){
+
+    
     main{
-       flex-flow: column wrap;
-       align-items: center;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        background: black;
+    }
+    .container-center{
+        background: black;
+        height: auto;
+    }
+
+    .lista-de-jogos{
+        background: black;
+
+    }
+
+    h4{
+        font-size: 30px;
+       width: 200px;
+       margin-top: 50px;
+       margin-left: 50px;
     }
     
 }
+
+
 
 
 
